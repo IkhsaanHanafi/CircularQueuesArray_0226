@@ -4,7 +4,8 @@ using namespace std;
 class Queues 
 {
 private:
-    int FRONT, REAR, max = 5;
+    static const int max = 5; 
+    int FRONT, REAR;
     int queue_array[5];
 
 public:
