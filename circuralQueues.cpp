@@ -41,3 +41,11 @@ public:
     queue_array[REAR] = num;
     }
 
+    void remove ()
+    {
+        // cek jika antrian hanya memiliki satu elemen 
+        if (FRONT == REAR)
+        {
+            FRONT = -1;
+            REAR = -1;
+        }
